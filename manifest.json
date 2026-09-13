@@ -1,0 +1,13 @@
+{
+  "name": "Fiscalização de Transporte de Madeira",
+  "short_name": "Transp. Madeira",
+  "description": "Assistente de fiscalização, cubagem e relatório de transporte de produtos florestais.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f7f2",
+  "theme_color": "#1f5c3d",
+  "icons": [
+    {"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ]
+}
