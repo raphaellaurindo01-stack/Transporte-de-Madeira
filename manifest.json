@@ -1,13 +1,31 @@
 {
+  "id": "./",
   "name": "Fiscalização de Transporte de Madeira",
-  "short_name": "Transp. Madeira",
-  "description": "Assistente de fiscalização, cubagem e relatório de transporte de produtos florestais.",
-  "start_url": "./",
+  "short_name": "Fiscal. Madeira",
+  "description": "Assistente operacional para fiscalização, cubagem e análise do transporte de produtos florestais.",
+  "start_url": "./?source=pwa",
   "scope": "./",
   "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
   "background_color": "#f4f7f2",
   "theme_color": "#1f5c3d",
+  "categories": ["productivity", "utilities"],
   "icons": [
     {"src":"icon.svg","sizes":"any","type":"image/svg+xml","purpose":"any maskable"}
+  ],
+  "shortcuts": [
+    {
+      "name": "Nova fiscalização",
+      "short_name": "Nova fiscalização",
+      "description": "Abrir o aplicativo para iniciar uma nova fiscalização",
+      "url": "./?action=new"
+    },
+    {
+      "name": "Continuar fiscalização",
+      "short_name": "Continuar",
+      "description": "Continuar a fiscalização salva neste aparelho",
+      "url": "./?action=resume"
+    }
   ]
 }
